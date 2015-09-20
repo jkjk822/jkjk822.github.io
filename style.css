@@ -1,0 +1,135 @@
+/*
+* Style sheet for the webpage
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900);
+p{
+	line-height: 1em;
+	margin-top: .75em;
+	margin-bottom: .75em;
+}
+h1, h2, h4{
+    color: orange;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+	clear: both;
+}
+h1{
+	font-size: 1.7em;
+}
+h2{
+	font-size: 1.5em;
+	text-align: center;
+}
+h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover, a:active{
+	font-weight: bold;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2em;
+    width: 100%;
+    margin: 0;
+    background: #eee;
+}
+#page{
+	min-width: 960px;
+	margin: 20px;
+}
+#header{
+	margin-top: 5px;
+	font-family: georgia;
+	text-align: center;
+}
+#nav{
+	text-align: center;
+}
+#nav ul{
+	padding-left: 0;
+}
+#nav ul li{
+	display: inline-block;
+	height: 62px;
+}
+#nav ul li a{
+	padding: 20px;
+	background: orange;
+	color: white;
+}
+#nav ul li a:hover{
+	background-color: #ffb424;
+	box-shadow: 0px 1px 1px #666;
+}
+#nav ul li a:active{
+	background-color: #ff8f00;
+}
+
+#content{
+	width: 50%;
+	margin: 30px auto;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+#content, ul li a{
+	box-shadow: 0px 1px 1px #999; 
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+}
+#footer p{
+	color: grey;
+	margin-top: -20px;
+}
+
+.right{
+	text-align: right;
+	float: right;
+}
+
+.left{
+	text-align: left;
+	float: left;
+}
+
+.favicon{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.tags{
+	color: orange;
+}
+.item{
+	padding: 10px;
+}
+.item:hover{
+	background-color: rgba(23, 170, 177, .2);
+}
+.education{
+	float: right;
+	margin: 0px;
+}
+.container{
+	width: 60%;
+}
+.details{
+	padding: 8px;
+}
+td{
+	padding: 0px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+}
+table{
+	border-spacing: 0px;
+}
