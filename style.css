@@ -2,13 +2,14 @@
 * Style sheet for the webpage
 */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900);
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 p{
 	line-height: 1em;
 	margin-top: .75em;
 	margin-bottom: .75em;
 }
 h1, h2, h4{
-    color: orange;
+	color: orange;
 	font-weight: normal;
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
@@ -35,11 +36,11 @@ a:hover, a:active{
 
 
 body{
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.2em;
-    width: 100%;
-    margin: 0;
-    background: #eee;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.2em;
+	width: 100%;
+	margin: 0;
+	background: #eee;
 }
 #page{
 	min-width: 960px;
@@ -102,18 +103,15 @@ body{
 }
 
 .favicon{
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
 }
 .tags{
 	color: orange;
 }
 .item{
 	padding: 10px;
-}
-.item:hover{
-	background-color: rgba(23, 170, 177, .2);
 }
 .education{
 	float: right;
@@ -132,4 +130,74 @@ td{
 }
 table{
 	border-spacing: 0px;
+}
+.link{
+	color: #07c;
+	box-shadow: none;
+}
+.link:hover{
+	font-weight: normal;
+	color: #30a7fc;
+}
+.fa{
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	border-radius: 25px;
+	font-size: 30px;
+	text-align: center;
+	margin-right: 10px;
+}
+.fa:hover{
+	font-weight: normal;
+	background-color: #4078c0;
+	opacity: .8;
+}
+.gmail{
+	background: #eaeaea;
+	background-image: url('gmail-icon.png');
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: 5px;
+}
+.fa-facebook{
+	line-height: 1.6em;
+	background: #3b5998
+} 
+.fa-linkedin{
+	line-height: 1.5em;
+	background: #007bb6
+}
+.fa-github{
+	line-height: .9em;
+	color: #000;
+	font-size: 52px;
+	margin-top: -1px;
+}
+.fa-github:hover{
+	color: #4078c0;
+	background-color: #fff;
+}
+.stack-overflow{
+	background-color: #eaeaea;
+	background-image: url('so-icon.png');
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position: -.5px;
+}
+.stack-overflow:hover{
+	background-color: #4078c0;
+}
+.accounts{
+	height: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 > .project:hover{
+	font-weight: 800;
+	text-decoration: underline;
 }
