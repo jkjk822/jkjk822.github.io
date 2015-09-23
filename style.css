@@ -200,7 +200,7 @@ table{
     flex-direction: row;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-	-webkit-flex-align: center;
+    -webkit-justify-content: center;
     justify-content: center;
     -webkit-align-items: center;
     align-items: center;
