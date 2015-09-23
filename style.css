@@ -142,6 +142,7 @@ table{
 	font-weight: normal;
 	color: #30a7fc;
 }
+
 .fa{
 	color: #fff;
 	width: 45px;
@@ -193,6 +194,7 @@ table{
 }
 .accounts{
 	height: 45px;
+	display: -webkit-flex;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
