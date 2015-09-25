@@ -136,7 +136,6 @@ table{
 }
 .link{
 	color: #07c;
-	box-shadow: none;
 }
 .link:hover{
 	font-weight: normal;
@@ -205,8 +204,9 @@ table{
     -webkit-align-items: center;
     align-items: center;
 }
-
+h3 > .project{
+	color: #07c;
+}
 h3 > .project:hover{
-	font-weight: 800;
-	text-decoration: underline;
+	color: #30a7fc;
 }

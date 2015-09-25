@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" 
+    href="streetmapper_webstart.jnlp">
+    <information>
+        <title>Street Mapper</title>
+        <vendor>Johnny Jacobs</vendor>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.8+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="StreetMapper.jar"
+            main="true" />
+    </resources>
+	<security>
+		<sandbox/>
+	</security>
+    <application-desc
+         name="Street Mapper Application"
+         main-class="StreetMapper"
+         width="300"
+         height="300">
+     </application-desc>
+     <update check="background"/>
+</jnlp>
