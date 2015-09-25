@@ -3,11 +3,6 @@
 */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900);
 @import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-p{
-	line-height: 1em;
-	margin-top: .75em;
-	margin-bottom: .75em;
-}
 h2, h4{
 	color: orange;
 	font-weight: normal;
@@ -26,14 +21,6 @@ h3{
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-a{
-	color: black;
-	text-decoration: none;
-}
-a:hover, a:active{
-	font-weight: bold;
-}
-
 
 body{
 	font-family: 'Roboto', sans-serif;
@@ -42,15 +29,39 @@ body{
 	margin: 0;
 	background: #eee;
 }
+
+p{
+	line-height: 1em;
+	margin-top: .75em;
+	margin-bottom: .75em;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover, a:active{
+	font-weight: bold;
+}
+.link{
+	color: #07c;
+}
+.link:hover{
+	font-weight: normal;
+	color: #30a7fc;
+}
+
 #page{
 	min-width: 960px;
 	margin: 20px;
 }
+
 #header{
 	margin-top: 5px;
 	font-family: georgia;
 	text-align: center;
 }
+
 #nav{
 	text-align: center;
 }
@@ -80,35 +91,13 @@ a#currentTab:hover{
 	box-shadow: 0px 1px 1px #bbb;
 	font-weight: normal;
 }
+
 #content{
 	width: 50%;
 	margin: 30px auto;
 	background: white;
 	padding: 20px;
 	clear: both;
-}
-#footer{
-	border-bottom: 1px #ccc solid;
-}
-#footer p{
-	color: grey;
-	margin-top: -20px;
-}
-
-.right{
-	text-align: right;
-	float: right;
-}
-
-.left{
-	text-align: left;
-	float: left;
-}
-
-.favicon{
-	width: 16px;
-	height: 16px;
-	margin-right: 5px;
 }
 .tags{
 	color: orange;
@@ -134,14 +123,36 @@ td{
 table{
 	border-spacing: 0px;
 }
-.link{
-	color: #07c;
+
+#footer{
+	border-bottom: 1px #ccc solid;
 }
-.link:hover{
-	font-weight: normal;
-	color: #30a7fc;
+#footer p{
+	color: grey;
+	margin-top: -20px;
+}
+.right{
+	text-align: right;
+	float: right;
 }
 
+.left{
+	text-align: left;
+	float: left;
+}
+
+.favicon{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+
+h3 > .project{
+	color: #07c;
+}
+h3 > .project:hover{
+	color: #30a7fc;
+}
 .fa{
 	color: #fff;
 	width: 45px;
@@ -203,10 +214,4 @@ table{
     justify-content: center;
     -webkit-align-items: center;
     align-items: center;
-}
-h3 > .project{
-	color: #07c;
-}
-h3 > .project:hover{
-	color: #30a7fc;
 }
