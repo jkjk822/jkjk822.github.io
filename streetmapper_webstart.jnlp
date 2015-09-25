@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jnlp spec="1.0+" codebase=""
-    href="streetmapper_webstart.jnlp">
+    href="http://jkjk822.github.io/streetmapper_webstart.jnlp">
     <information>
         <title>Street Mapper</title>
         <vendor>Johnny Jacobs</vendor>
