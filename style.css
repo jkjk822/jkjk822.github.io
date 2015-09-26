@@ -141,7 +141,7 @@ table{
 	margin-right: 5px;
 }
 .fa{
-	color: #fff;
+	color: white;
 	width: 45px;
 	height: 45px;
 	border-radius: 25px;
@@ -150,6 +150,7 @@ table{
 	margin-right: 10px;
 }
 .fa:hover{
+	color: white;
 	font-weight: normal;
 	background-color: #4078c0;
 	opacity: .8;
@@ -171,13 +172,13 @@ table{
 }
 .fa-github{
 	line-height: .9em;
-	color: #000;
+	color: black;
 	font-size: 52px;
 	margin-top: -1px;
 }
 .fa-github:hover{
 	color: #4078c0;
-	background-color: #fff;
+	background-color: white;
 }
 .stack-overflow{
 	background-color: #eaeaea;
