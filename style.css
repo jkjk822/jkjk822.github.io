@@ -3,6 +3,25 @@
 */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900);
 @import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+/********
+ * Tags *
+ ********/
+
+a{
+	color: #07c;
+	text-decoration: none;
+}
+a:hover{
+	color: #30a7fc;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.2em;
+	width: 100%;
+	margin: 0;
+	background: #eee;
+}
 h2, h4{
 	color: orange;
 	font-weight: normal;
@@ -21,40 +40,53 @@ h3{
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-
-body{
-	font-family: 'Roboto', sans-serif;
-	line-height: 1.2em;
-	width: 100%;
-	margin: 0;
-	background: #eee;
-}
-
 p{
 	line-height: 1em;
 	margin-top: .75em;
 	margin-bottom: .75em;
 }
-
-a{
-	color: #07c;
-	text-decoration: none;
+table{
+	border-spacing: 0px;
 }
-a:hover{
-	color: #30a7fc;
-}
-
-#page{
-	min-width: 960px;
-	margin: 20px;
+td{
+	padding: 0px;
+	padding-bottom: 10px;
+	padding-right: 25px;
 }
 
+
+/********
+ * ID's *
+ ********/
+
+#content{
+	width: 50%;
+	margin: 30px auto;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+a#currentTab{
+	background-color: #F38700;
+	box-shadow: 0px 1px 1px #bbb; 
+}
+a#currentTab:hover{
+	background-color: #F38700;
+	box-shadow: 0px 1px 1px #bbb;
+	font-weight: normal;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+}
+#footer p{
+	color: grey;
+	margin-top: -20px;
+}
 #header{
 	margin-top: 5px;
 	font-family: georgia;
 	text-align: center;
 }
-
 #nav{
 	text-align: center;
 }
@@ -76,32 +108,29 @@ a:hover{
 	box-shadow: 0px 1px 1px #666;
 	font-weight: bold;
 }
-a#currentTab{
-	background-color: #F38700;
-	box-shadow: 0px 1px 1px #bbb; 
-}
-a#currentTab:hover{
-	background-color: #F38700;
-	box-shadow: 0px 1px 1px #bbb;
-	font-weight: normal;
+#page{
+	min-width: 960px;
+	margin: 20px;
 }
 
-#content{
-	width: 50%;
-	margin: 30px auto;
-	background: white;
-	padding: 20px;
-	clear: both;
-}
-.tags{
-	color: orange;
-}
-.item{
-	padding: 10px;
-}
-.time-frame{
-	float: right;
-	margin: 0px;
+
+
+/***********
+ * Classes *
+ ***********/
+
+.accounts{
+	height: 45px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
 .container{
 	width: 60%;
@@ -109,32 +138,6 @@ a#currentTab:hover{
 .details{
 	padding: 8px;
 }
-td{
-	padding: 0px;
-	padding-bottom: 10px;
-	padding-right: 25px;
-}
-table{
-	border-spacing: 0px;
-}
-
-#footer{
-	border-bottom: 1px #ccc solid;
-}
-#footer p{
-	color: grey;
-	margin-top: -20px;
-}
-.right{
-	text-align: right;
-	float: right;
-}
-
-.left{
-	text-align: left;
-	float: left;
-}
-
 .favicon{
 	width: 16px;
 	height: 16px;
@@ -155,13 +158,6 @@ table{
 	background-color: #4078c0;
 	opacity: .8;
 }
-.gmail{
-	background: #eaeaea;
-	background-image: url('gmail-icon.png');
-	background-repeat: no-repeat;
-	background-size: 35px;
-	background-position: 5px;
-}
 .fa-facebook{
 	line-height: 1.6em;
 	background: #3b5998
@@ -180,6 +176,30 @@ table{
 	color: #4078c0;
 	background-color: white;
 }
+.gmail{
+	background: #eaeaea;
+	background-image: url('gmail-icon.png');
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: 5px;
+}
+.item{
+	padding: 10px;
+}
+.left{
+	text-align: left;
+	float: left;
+}
+.list{
+	padding-left: 28px;
+}
+.list-title{
+	margin-left: -20px;
+}
+.right{
+	text-align: right;
+	float: right;
+}
 .stack-overflow{
 	background-color: #eaeaea;
 	background-image: url('so-icon.png');
@@ -190,16 +210,10 @@ table{
 .stack-overflow:hover{
 	background-color: #4078c0;
 }
-.accounts{
-	height: 45px;
-	display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
+.tags{
+	color: orange;
+}
+.time-frame{
+	float: right;
+	margin: 0px;
 }
